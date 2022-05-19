@@ -45,7 +45,7 @@ size_t findMin(const T* parr, size_t count)
 	return min;
 }
 
-
+ 
 int main(int argc, char **argv) {
     int arr[20], arr2[20];
     for (auto i = 0; i < sizeof(arr)/sizeof(arr[0]); i++)
