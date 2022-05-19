@@ -202,6 +202,7 @@ public:
     iterator end() { return iterator(); }
 };
 
+/// Тест сделан через функцию 
 template<class T>
 bool testHeapAdd(const vector<T> &initial, const T &value, const vector<T> &expected) {
     HeapOverArray<T> heap(initial);
