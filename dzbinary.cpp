@@ -225,7 +225,5 @@ int main()
     vector<int> expected = { 8, 4, 7, 3 };
     testHeapAdd(initial, 8, expected);
 
-    
-
     return 0;
 }
